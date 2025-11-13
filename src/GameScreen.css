@@ -1,0 +1,25 @@
+/* GameScreen.module.css */
+.field {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.hole {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  background: url("/hole.png") no-repeat center/contain;
+  position: relative;
+}
+
+.mole {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: url("/mole.png") no-repeat center/contain;
+}
